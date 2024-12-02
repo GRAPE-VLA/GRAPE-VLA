@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="utf-8">
   <meta name="description" content="GRAPE">
-  <meta name="keywords" content="Legged Locomotion, Agile Locomotion, Parkour, Reinforcement Learning, Visuomotor Control, Sim-to-Real Transfer">
+  <meta name="keywords"
+    content="Legged Locomotion, Agile Locomotion, Parkour, Reinforcement Learning, Visuomotor Control, Sim-to-Real Transfer">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>GRAPE</title>
 
-  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro"
-        rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Google+Sans|Noto+Sans|Castoro" rel="stylesheet">
 
   <link rel="stylesheet" href="./static/css/bulma.min.css">
   <link rel="stylesheet" href="./static/css/bulma-carousel.min.css">
@@ -56,54 +57,57 @@
 
 <body>
 
-<section class="hero">
-  <div class="hero-body">
-    <div class="container">
-      <div class="columns is-centered">
-        <div class="column has-text-centered">
-          <h1 class="title is-1 publication-title">GRAPE: Generalizing Robot Policy via Preference Alignment</h1>
-          <div class="is-size-5 publication-authors">
-            <span class="author-block">
-              <a href="https://zzj1111.github.io/">Zijian Zhang</a>*&nbsp;&nbsp;
-              <a href="https://linkedin.com/in/kaiyuan-zheng-94984a236">Kaiyuan Zheng</a>*&nbsp;&nbsp;
-              <a href="https://billchan226.github.io/">Zhaorun Chen</a>&nbsp;&nbsp;
-              <a href="https://joeljang.github.io/">Joel Jang</a>&nbsp;&nbsp;
-              <a href="https://yili.vision/">Yi Li</a>&nbsp;&nbsp;
-              <a href="https://alecwangcq.github.io/">Chaoqi Wang</a>&nbsp;&nbsp;
-              <a href="https://dingmyu.github.io/">Mingyu Ding</a>&nbsp;&nbsp;
-              <a href="https://homes.cs.washington.edu/~fox/">Dieter Fox</a>&nbsp;&nbsp;
-              <a href="http://huaxiuyao.mystrikingly.com/">Huaxiu Yao</a>&nbsp;&nbsp;
-
-            </span>
-          </div>
-          <div class="column">
-              <image src="./static/images/logo.jpg" style="width: 60%;"></image>
-          </div>
-          <div class="is-size-4 publication-authors">
-            Preprint
-          </div>
+  <section class="hero">
+    <div class="hero-body">
+      <div class="container">
+        <div class="columns is-centered">
           <div class="column has-text-centered">
-            <div class="publication-links">
-              <!-- arXiv Link. -->
-              <span class="link-block">
-                <a href="https://arxiv.org/abs/2411.19309"
-                   class="external-link button is-normal is-rounded is-dark" target="_blank">
-                  <span class="icon">
+            <h1 class="title is-1 publication-title">GRAPE: Generalizing Robot Policy via Preference Alignment</h1>
+            <div class="is-size-5 publication-authors">
+              <span class="author-block">
+                <a href="https://zzj1111.github.io/">Zijian Zhang</a>*&nbsp;&nbsp;
+                <a href="https://linkedin.com/in/kaiyuan-zheng-94984a236">Kaiyuan Zheng</a>*&nbsp;&nbsp;
+                <a href="https://billchan226.github.io/">Zhaorun Chen</a>&nbsp;&nbsp;
+                <a href="https://joeljang.github.io/">Joel Jang</a>&nbsp;&nbsp;
+                <a href="https://yili.vision/">Yi Li</a>&nbsp;&nbsp;
+                <a href="https://alecwangcq.github.io/">Chaoqi Wang</a>&nbsp;&nbsp;
+                <a href="https://dingmyu.github.io/">Mingyu Ding</a>&nbsp;&nbsp;
+                <a href="https://homes.cs.washington.edu/~fox/">Dieter Fox</a>&nbsp;&nbsp;
+                <a href="http://huaxiuyao.mystrikingly.com/">Huaxiu Yao</a>&nbsp;&nbsp;
+
+              </span>
+            </div>
+            <div class="column">
+              <image src="./static/images/logo.jpg" style="width: 60%;"></image>
+            </div>
+            <div class="is-size-4 publication-authors">
+              Preprint
+            </div>
+            <div class="column has-text-centered">
+              <div class="publication-links">
+                <!-- PDF Link. -->
+                <span class="link-block">
+                  <a href="./resources/2411.19309v1.pdf" class="external-link button is-normal is-rounded is-dark"
+                    target="_blank">
+                    <span class="icon">
+                      <i class="fas fa-file-pdf"></i>
+                    </span>
+                    <span>Paper</span>
+                  </a>
+                </span>
+                <!-- arXiv Link. -->
+                <span class="link-block">
+                  <a href="https://arxiv.org/abs/2411.19309" class="external-link button is-normal is-rounded is-dark"
+                    target="_blank">
+                    <span class="icon">
                       <i class="ai ai-arxiv"></i>
-                  </span>
-                  <span>arXiv</span>
-                </a>
-              </span>
-              <span class="link-block">
-                <a href="https://huggingface.co/ZijianZhang/OpenVLA-7B-GRAPE-Simpler" class="external-link button is-normal is-rounded is-dark" target="_blank">
-                  <span class="icon">
-                      <svg class="svg-inline--fa fa-database fa-w-14" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="database" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" data-fa-i2svg=""><path fill="currentColor" d="M448 73.143v45.714C448 159.143 347.667 192 224 192S0 159.143 0 118.857V73.143C0 32.857 100.333 0 224 0s224 32.857 224 73.143zM448 176v102.857C448 319.143 347.667 352 224 352S0 319.143 0 278.857V176c48.125 33.143 136.208 48.572 224 48.572S399.874 209.143 448 176zm0 160v102.857C448 479.143 347.667 512 224 512S0 479.143 0 438.857V336c48.125 33.143 136.208 48.572 224 48.572S399.874 369.143 448 336z"></path></svg><!-- <i class="fas fa-database"></i> Font Awesome fontawesome.com -->
-                  </span>
-                  <span>Model</span>
-                </a>
-              </span>
-              <!-- OpenReview Link. -->
-              <!-- <span class="link-block">
+                    </span>
+                    <span>arXiv</span>
+                  </a>
+                </span>
+                <!-- OpenReview Link. -->
+                <!-- <span class="link-block">
+              <!--
                 <a href="https://openreview.net/forum?id=uo937r5eTE"
                    class="external-link button is-normal is-rounded is-dark" target="_blank">
                   <span class="icon">
@@ -112,8 +116,8 @@
                   <span>OpenReview</span>
                 </a>
               </span> -->
-              <!-- Video Link. -->
-              <!-- <span class="link-block">
+                <!-- Video Link. -->
+                <!-- <span class="link-block">
                 <a href="https://youtu.be/M7lDCSF0KP0"
                    class="external-link button is-normal is-rounded is-dark" target="_blank">
                   <span class="icon">
@@ -122,8 +126,8 @@
                   <span>Video</span>
                 </a>
               </span> -->
-              <!-- Bilibili Link. -->
-              <!-- <span class="link-block">
+                <!-- Bilibili Link. -->
+                <!-- <span class="link-block">
                 <a href="https://www.bilibili.com/video/BV1Nu4y1C7ae/"
                     class="external-link button is-normal is-rounded is-dark" target="_blank">
                     <span class="icon">
@@ -131,8 +135,8 @@
                     <span>Bilibili</span>
                 </a>
               </span> -->
-              <!-- Poster Link. -->
-              <!-- <span class="link-block">
+                <!-- Poster Link. -->
+                <!-- <span class="link-block">
                 <a href="./resources/poster-compressed.pdf"
                     class="external-link button is-normal is-rounded is-dark" target="_blank">
                     <span class="icon">
@@ -140,8 +144,8 @@
                     <span>Poster</span>
                 </a>
               </span> -->
-              <!-- twitter Link. -->
-              <!-- <span class="link-block">
+                <!-- twitter Link. -->
+                <!-- <span class="link-block">
                 <a href="https://x.com/zipengfu/status/1701316023612219445?s=20"
                    class="external-link button is-normal is-rounded is-dark" target="_blank">
                   <span class="icon">
@@ -150,356 +154,265 @@
                   <span>Summary</span>
                 </a>
               </span> -->
-              <!-- Code Link. -->
-              <span class="link-block">
-                <a href="https://github.com/aiming-lab/grape" class="external-link button is-normal is-rounded is-dark" target="_blank">
-                  <span class="icon">
-                      <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false" data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 496 512" data-fa-i2svg=""><path fill="currentColor" d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z"></path></svg><!-- <i class="fab fa-github"></i> Font Awesome fontawesome.com -->
-                  </span>
-                  <span>Code</span>
-                </a>
-              </span>
-              <!-- <span class="link-block">
+                <!-- Code Link. -->
+                <span class="link-block">
+                  <a href="https://github.com/aiming-lab/grape"
+                    class="external-link button is-normal is-rounded is-dark" target="_blank">
+                    <span class="icon">
+                      <svg class="svg-inline--fa fa-github fa-w-16" aria-hidden="true" focusable="false"
+                        data-prefix="fab" data-icon="github" role="img" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 496 512" data-fa-i2svg="">
+                        <path fill="currentColor"
+                          d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                        </path>
+                      </svg><!-- <i class="fab fa-github"></i> Font Awesome fontawesome.com -->
+                    </span>
+                    <span>Code</span>
+                  </a>
+                </span>
+                <!-- <span class="link-block">
                 <a href="./cn.html" class="external-link button is-normal is-rounded is-dark" target="_blank">
                   <span class="icon">
                       <i class="fas fa-language"></i>
                   </span>
                   <span>中文</span> -->
                 </a>
-              </span>
+                </span>
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
+  <section class="hero teaser teaser-video">
+    <div class="container is-max-desktop has-text-centered">
+      <div class="hero-body">
+        <video id="teaser" autoplay="" muted="" loop="" playsinline="" width="80%">
+          <source src="static/videos/grape.mp4" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </section>
 
-<section class="section">
-  <div class="container">
-    <!-- Abstract. -->
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-two-thirds">
-        <h2 class="title is-2">Abstract</h2>
-        <div class="content has-text-justified">
-          <p>
-            Despite the recent advancements of vision-language-action (VLA) models on a variety of robotics tasks, they suffer from critical issues such as poor generalizability to unseen tasks, due to their reliance on behavior cloning exclusively from successful rollouts. Furthermore, they are typically fine-tuned to replicate demonstrations collected by experts under different settings, thus introducing distribution bias and limiting their adaptability to diverse manipulation objectives, such as efficiency, safety, and task completion. To bridge this gap, we introduce <strong>GRAPE</strong>: <strong>G</strong>ene<strong>ra</strong>lizing Robot Policy via <strong>P</strong>r<strong>e</strong>ference Alignment. Specifically, GRAPE aligns VLAs on a trajectory level and implicitly models reward from both successful and failure trials to boost generalizability to diverse tasks. Moreover, GRAPE breaks down complex manipulation tasks to independent stages and automatically guides preference modeling through customized spatiotemporal constraints with keypoints proposed by a large vision-language model. Notably, these constraints are flexible and can be customized to align the model with varying objectives, such as safety, efficiency, or task success. We evaluate GRAPE across a diverse array of tasks in both real-world and simulated environments. Experimental results demonstrate that GRAPE enhances the performance of state-of-the-art VLA models, increasing success rates on in-domain and unseen manipulation tasks by <strong>51.79%</strong> and <strong>60.36%</strong>, respectively. Additionally, GRAPE can be aligned with various objectives, such as safety and efficiency, reducing collision rates by <strong>44.31%</strong> and rollout step-length by <strong>11.15%</strong>, respectively.
-          </p>
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">The OpenVLA Model</h2>
+          <div class="content has-text-justified has-text-centered">
+            <img src="static/images/grape_model.png">
+            <p>
+              <strong>Overview of GRAPE</strong>. Given a complex manipulation task (<strong>top</strong>), GRAPE first
+              adopts a
+              vision-language model to
+              decompose the
+              task into several temporal stages, then identifies spatial keypoints essential for each stage’s subtask
+              completion. Then given user-specified
+              alignment goals, GRAPE prompts a powerful vision-language model to obtain a series of cost functions for
+              each stage, where lower cost
+              implies higher alignment compliance. During iterative preference optimization (<strong>bottom</strong>),
+              we sample multiple
+              offline trajectories from the
+              base VLA model and obtain trajectories with associated multi-stage costs. This score further incorporates
+              the model’s self-evaluation of
+              each trajectory and a binary task success indicator. Then we rank the sampled trajectories with their
+              corresponding scores to obtain a list of
+              preferences. Then we perform a trajectory-wise preference optimization to obtain a improved model, from
+              which we further sample online
+              trajectories and iterate until convergence.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
+  <section class="section">
+    <div class="container is-max-desktop">
+      <div class="columns is-centered">
+        <div class="column is-full-width">
+          <h2 class="title is-3">Experiments</h2>
 
-<section class="section">
-  <div class="container">
-    <h2 class="title is-2" style="text-align: center;"><strong>Real-World Tasks</strong></h2>
-    <div class="columns is-centered">
-      <div class="column is-full-width is-centered has-text-centered">
-        <div style="position: relative; width: 100%; max-width: 640px; padding-top: 56.25%; margin: 1.0%; border: 1px solid #bbb; border-radius: 10px; overflow: hidden;">
-          <video controls autoplay loop muted playsinline 
-            src="./resources/climb/domain_success.mp4" 
-            poster="./resources/loading-icon.gif" 
-            class="speed-control" 
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-          </video>
-        </div>
-        <p class="caption" style="margin-top: 10px; font-size: 1rem;"><strong>In-domain tasks</strong></p>
-      </div>
-      <div class="column is-full-width is-centered has-text-centered">
-        <div style="position: relative; width: 100%; max-width: 640px; padding-top: 56.25%; margin: 1.0%; border: 1px solid #bbb; border-radius: 10px; overflow: hidden;">
-          <video controls autoplay loop muted playsinline 
-            src="./resources/climb/language_success.mp4" 
-            poster="./resources/loading-icon.gif" 
-            class="speed-control" 
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-          </video>
-        </div>
-        <p class="caption" style="margin-top: 10px; font-size: 1rem;"><strong>Language Grounding</strong></p>
-      </div>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-full-width is-centered has-text-centered">
-        <div style="position: relative; width: 100%; max-width: 640px; padding-top: 56.25%; margin: 1.0%; border: 1px solid #bbb; border-radius: 10px; overflow: hidden;">
-          <video controls autoplay loop muted playsinline 
-            src="./resources/climb/semantics_success.mp4" 
-            poster="./resources/loading-icon.gif" 
-            class="speed-control" 
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-          </video>
-        </div>
-        <p class="caption" style="margin-top: 10px; font-size: 1rem;"><strong>Semantic Gen</strong>: New instructions</p>
-      </div>
-      <div class="column is-full-width is-centered has-text-centered">
-        <div style="position: relative; width: 100%; max-width: 640px; padding-top: 56.25%; margin: 1.0%; border: 1px solid #bbb; border-radius: 10px; overflow: hidden;">
-          <video controls autoplay loop muted playsinline 
-            src="./resources/climb/action_knock_success.mp4" 
-            poster="./resources/loading-icon.gif" 
-            class="speed-control" 
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-          </video>
-        </div>
-        <p class="caption" style="margin-top: 10px; font-size: 1rem;"><strong>Action Gen</strong>: New actions</p>
-      </div>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-full-width is-centered has-text-centered">
-        <div style="position: relative; width: 100%; max-width: 640px; padding-top: 56.25%; margin: 1.0%; border: 1px solid #bbb; border-radius: 10px; overflow: hidden;">
-          <video controls autoplay loop muted playsinline 
-            src="./resources/climb/visual_success.mp4" 
-            poster="./resources/loading-icon.gif" 
-            class="speed-control" 
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-          </video>
-        </div>
-        <p class="caption" style="margin-top: 10px; font-size: 1rem;"><strong>Visual Gen</strong>: Different background</p>
-      </div>
-      <div class="column is-full-width is-centered has-text-centered">
-        <div style="position: relative; width: 100%; max-width: 640px; padding-top: 56.25%; margin: 1.0%; border: 1px solid #bbb; border-radius: 10px; overflow: hidden;">
-          <video controls autoplay loop muted playsinline 
-            src="./resources/climb/subject_success.mp4" 
-            poster="./resources/loading-icon.gif" 
-            class="speed-control" 
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-          </video>
-        </div>
-        <p class="caption" style="margin-top: 10px; font-size: 1rem;"><strong>Subject Gen</strong>: New objects</p>
-      </div>
-    </div>
-  </div>
-</section>
+          <h3 class="title is-4">Simulation Experiments</h3>
+          <img src="static/images/grape_simulation_experiments_simpler_env.png">
+          <div class="content has-text-justified">
 
-<script>
-  // 设置所有视频的播放速率为 4x（倍速）
-  document.querySelectorAll('.speed-control').forEach(video => {
-    video.playbackRate = 4.0; // 设置倍速播放
-  });
-</script>
+            <p>
+              Comparison of GRAPE with OpenVLA and Octo finetuned on the same data on the Simpler-Env environment. We
+              report the in-domain performance, which includes four tasks and
+              three generalization evaluations (subject, physical, and semantic),
+              where each incorporates multiple tasks.
+            </p>
+          </div>
 
+          <br>
 
+          <img src="static/images/grape_simulation_experiments_libero.png">
+          <div class="content has-text-justified">
 
-<section class="section">
-  <div class="container">
-    <h2 class="title is-2" style="text-align: center;"><strong>Simpler-Env</strong></h2>
-    <div class="columns is-centered">
-      <div class="column is-full-width is-centered has-text-centered">
-        <div style="position: relative; width: 100%; max-width: 640px; padding-top: 56.25%; margin: 1.0%; border: 1px solid #bbb; border-radius: 10px; overflow: hidden;">
-          <video controls autoplay loop muted playsinline 
-            src="./resources/leap/in-domain.mp4" 
-            poster="./resources/loading-icon.gif" 
-            class="speed-control" 
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-          </video>
-        </div>
-        <p class="caption" style="margin-top: 10px; font-size: 1rem;"><strong>In-Domain tasks</strong></p>
-      </div>
-      <div class="column is-full-width is-centered has-text-centered">
-        <div style="position: relative; width: 100%; max-width: 640px; padding-top: 56.25%; margin: 1.0%; border: 1px solid #bbb; border-radius: 10px; overflow: hidden;">
-          <video controls autoplay loop muted playsinline 
-            src="./resources/leap/subject.mp4" 
-            poster="./resources/loading-icon.gif" 
-            class="speed-control" 
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-          </video>
-        </div>
-        <p class="caption" style="margin-top: 10px; font-size: 1rem;"><strong>Subject Gen</strong>: New objects</p>
-      </div>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-full-width is-centered has-text-centered">
-        <div style="position: relative; width: 100%; max-width: 640px; padding-top: 56.25%; margin: 1.0%; border: 1px solid #bbb; border-radius: 10px; overflow: hidden;">
-          <video controls autoplay loop muted playsinline 
-            src="./resources/leap/semantics.mp4" 
-            poster="./resources/loading-icon.gif" 
-            class="speed-control" 
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-          </video>
-        </div>
-        <p class="caption" style="margin-top: 10px; font-size: 1rem;"><strong>Semantic Gen</strong>: New instruction</p>
-      </div>
-      <div class="column is-full-width is-centered has-text-centered">
-        <div style="position: relative; width: 100%; max-width: 640px; padding-top: 56.25%; margin: 1.0%; border: 1px solid #bbb; border-radius: 10px; overflow: hidden;">
-          <video controls autoplay loop muted playsinline 
-            src="./resources/leap/physical.mp4" 
-            poster="./resources/loading-icon.gif" 
-            class="speed-control" 
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-          </video>
-        </div>
-        <p class="caption" style="margin-top: 10px; font-size: 1rem;"><strong>Physical Gen</strong>: Different sizes/shapes</p>
-      </div>
-    </div>
-  </div>
-</section>
+            <p>
+              Comparison of GRAPE with OpenVLA and Octo finetuned on the same data on the LIBERO environment. We report
+              the
+              performance on four LIBERO tasks, including LIBERO-Spatial,
+              LIBERO-Object, LIBERO-Goal, LIBERO-Long.
+            </p>
+          </div>
 
-<script>
-  // 设置所有视频的播放速率为 3x（倍速）
-  document.querySelectorAll('.speed-control').forEach(video => {
-    video.playbackRate = 3.0; // 设置倍速播放
-  });
-</script>
+          <br>
 
-<section class="section">
-  <div class="container">
-    <h2 class="title is-2" style="text-align: center;">LIBERO</h2>
-    <div class="columns is-centered">
-      <div class="column is-full-width is-centered has-text-centered">
-        <div style="position: relative; width: 100%; max-width: 640px; padding-top: 56.25%; margin: 1.0%; border: 1px solid #bbb; border-radius: 10px; overflow: hidden;">
-          <video controls autoplay loop muted playsinline 
-            src="./resources/crawl/libero-10.mp4" 
-            poster="./resources/loading-icon.gif" 
-            class="speed-control" 
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-          </video>
-        </div>
-        <p class="caption" style="margin-top: 10px; font-size: 1rem;"><strong>LIBERO-10</strong></p>
-      </div>
-      <div class="column is-full-width is-centered has-text-centered">
-        <div style="position: relative; width: 100%; max-width: 640px; padding-top: 56.25%; margin: 1.0%; border: 1px solid #bbb; border-radius: 10px; overflow: hidden;">
-          <video controls autoplay loop muted playsinline 
-            src="./resources/crawl/libero-goal.mp4" 
-            poster="./resources/loading-icon.gif" 
-            class="speed-control" 
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-          </video>
-        </div>
-        <p class="caption" style="margin-top: 10px; font-size: 1rem;"><strong>LIBERO-GOAL</strong></p>
-      </div>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-full-width is-centered has-text-centered">
-        <div style="position: relative; width: 100%; max-width: 640px; padding-top: 56.25%; margin: 1.0%; border: 1px solid #bbb; border-radius: 10px; overflow: hidden;">
-          <video controls autoplay loop muted playsinline 
-            src="./resources/crawl/libero-object.mp4" 
-            poster="./resources/loading-icon.gif" 
-            class="speed-control" 
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-          </video>
-        </div>
-        <p class="caption" style="margin-top: 10px; font-size: 1rem;"><strong>LIBERO-Object</strong></p>
-      </div>
-      <div class="column is-full-width is-centered has-text-centered">
-        <div style="position: relative; width: 100%; max-width: 640px; padding-top: 56.25%; margin: 1.0%; border: 1px solid #bbb; border-radius: 10px; overflow: hidden;">
-          <video controls autoplay loop muted playsinline 
-            src="./resources/crawl/libero-spatial.mp4" 
-            poster="./resources/loading-icon.gif" 
-            class="speed-control" 
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-          </video>
-        </div>
-        <p class="caption" style="margin-top: 10px; font-size: 1rem;"><strong>LIBERO-Spatial</strong></p>
-      </div>
-    </div>
-  </div>
-</section>
+          <h3 class="title is-4">Real-world Experiments</h3>
+          <img src="static/images/grape_real_world_experiments.png">
+          <div class="content has-text-justified">
 
-<script>
-  // 设置所有视频的播放速率为 2x（倍速）
-  document.querySelectorAll('.speed-control').forEach(video => {
-    video.playbackRate = 2.0; // 设置倍速播放
-  });
-</script>
+            <p>
+              Comparison of GRAPE with OpenVLA and Octo fine-tuned on the same data on the real-world environment. We
+              report the
+              in-domain performance, which includes four tasks and five generalization evaluations (visual, subject,
+              action, semantic, and language
+              grounding), where each incorporates multiple tasks. We also report the average performance across all
+              tasks
+            </p>
+          </div>
 
+          <br>
+          <h3 class="title is-4">Sample OpenVLA Rollout Videos</h3>
 
-<section class="section">
-  <div class="container">
-    <h2 class="title is-2" style="text-align: center;"><strong>Learned Safety Behaviors</strong></h2>
-    <div class="columns is-centered has-text-centered">
-      <div class="column is-two-thirds">
-        <div class="content has-text-justified">
-          <p>
-            We selected safe trajectories based on GCPG reward, then we TPO-trained the OpenVLA-SFT to get GRAPE-Safety. The robot learns to complete the task safely.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="columns is-centered">
-      <div class="column is-full-width is-centered has-text-centered">
-        <div style="position: relative; width: 100%; max-width: 640px; padding-top: 56.25%; margin: 1.0%; border: 1px solid #bbb; border-radius: 10px; overflow: hidden;">
-          <video controls autoplay loop muted playsinline 
-            src="./resources/retry/unsafety_success.mp4" 
-            poster="./resources/loading-icon.gif" 
-            class="speed-control" 
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-          </video>
-        </div>
-        <p class="caption" style="margin-top: 10px; font-size: 1rem;"><strong>Unsafe behavior</strong> demonstrated by the GRAPE</p>
-      </div>
-      <div class="column is-full-width is-centered has-text-centered">
-        <div style="position: relative; width: 100%; max-width: 640px; padding-top: 56.25%; margin: 1.0%; border: 1px solid #bbb; border-radius: 10px; overflow: hidden;">
-          <video controls autoplay loop muted playsinline 
-            src="./resources/retry/safety_success.mp4" 
-            poster="./resources/loading-icon.gif" 
-            class="speed-control" 
-            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; object-fit: cover;">
-          </video>
-        </div>
-        <p class="caption" style="margin-top: 10px; font-size: 1rem;"><strong>Safe behavior</strong> demonstrated by the GRAPE-Safety</p>
-      </div>
-    </div>
-  </div>
-</section>
+          <br>
+          <h4 class="title is-6">Real-World Tasks</h4>
+          <div class="columns is-vcentered interpolation-panel">
+            <div class="column  has-text-centered">
+              <h5>In-domain tasks</h5>
+              <video autoplay="" controls="" muted="" loop="" playsinline="" width="100%">
+                <source src="./resources/climb/domain_success.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="column  has-text-centered">
+              <h5>Language Grounding</h5>
+              <video autoplay="" controls="" muted="" loop="" playsinline="" width="100%">
+                <source src="./resources/climb/language_success.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="column  has-text-centered">
+              <h5>Semantic Gen: New instructions</h5>
+              <video autoplay="" controls="" muted="" loop="" playsinline="" width="100%">
+                <source src="./resources/climb/semantics_success.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
 
-<script>
-  // 设置所有视频的播放速率为 2x（倍速）
-  document.querySelectorAll('.speed-control').forEach(video => {
-    video.playbackRate = 2.0; // 设置倍速播放
-  });
-</script>
+          <div class="columns is-vcentered interpolation-panel">
+            <div class="column  has-text-centered">
+              <h5>Action Gen: New actions</h5>
+              <video autoplay="" controls="" muted="" loop="" playsinline="" width="100%">
+                <source src="./resources/climb/action_knock_success.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="column  has-text-centered">
+              <h5>Visual Gen: Different background</h5>
+              <video autoplay="" controls="" muted="" loop="" playsinline="" width="100%">
+                <source src="./resources/climb/visual_success.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="column  has-text-centered">
+              <h5>Subject Gen: New objects</h5>
+              <video autoplay="" controls="" muted="" loop="" playsinline="" width="100%">
+                <source src="./resources/climb/subject_success.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
 
+          <br>
+          <h4 class="title is-6">Simpler-Env</h4>
+          <div class="columns is-vcentered interpolation-panel">
+            <div class="column  has-text-centered">
+              <h5>In-domain tasks</h5>
+              <video autoplay="" controls="" muted="" loop="" playsinline="" width="100%">
+                <source src="./resources/leap/in-domain.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="column  has-text-centered">
+              <h5>Subject Gen: New objects</h5>
+              <video autoplay="" controls="" muted="" loop="" playsinline="" width="100%">
+                <source src="./resources/leap/subject.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="column  has-text-centered">
+              <h5>Semantic Gen: New instructions</h5>
+              <video autoplay="" controls="" muted="" loop="" playsinline="" width="100%">
+                <source src="./resources/leap/semantics.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="column  has-text-centered">
+              <h5>Physical Gen: Different sizes/shapes</h5>
+              <video autoplay="" controls="" muted="" loop="" playsinline="" width="100%">
+                <source src="./resources/leap/physical.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
 
+          <br>
+          <h4 class="title is-6">LIBERO</h4>
+          <div class="columns is-vcentered interpolation-panel">
+            <div class="column  has-text-centered">
+              <h5>LIBERO-10</h5>
+              <video autoplay="" controls="" muted="" loop="" playsinline="" width="100%">
+                <source src="./resources/crawl/libero-10.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="column  has-text-centered">
+              <h5>LIBERO-GOAL</h5>
+              <video autoplay="" controls="" muted="" loop="" playsinline="" width="100%">
+                <source src="./resources/crawl/libero-goal.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="column  has-text-centered">
+              <h5>LIBERO-Object</h5>
+              <video autoplay="" controls="" muted="" loop="" playsinline="" width="100%">
+                <source src="./resources/crawl/libero-object.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="column  has-text-centered">
+              <h5>LIBERO-Spatial</h5>
+              <video autoplay="" controls="" muted="" loop="" playsinline="" width="100%">
+                <source src="./resources/crawl/libero-spatial.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
 
+          <br>
+          <h4 class="title is-6">Learned Safety Behaviors</h4>
+          <div class="content has-text-justified">
+            <p>We selected safe trajectories based on GCPG reward, then we TPO-trained the OpenVLA-SFT to get
+              GRAPE-Safety. The robot learns to complete the task safely.</p>
+          </div>
+          <div class="columns is-vcentered interpolation-panel">
+            <div class="column  has-text-centered">
+              <h5>Unsafe behavior demonstrated by the GRAPE</h5>
+              <video autoplay="" controls="" muted="" loop="" playsinline="" width="100%">
+                <source src="./resources/retry/unsafety_success.mp4" type="video/mp4">
+              </video>
+            </div>
+            <div class="column  has-text-centered">
+              <h5>Safe behavior demonstrated by the GRAPE-Safety</h5>
+              <video autoplay="" controls="" muted="" loop="" playsinline="" width="100%">
+                <source src="./resources/retry/safety_success.mp4" type="video/mp4">
+              </video>
+            </div>
+          </div>
 
-<section class="section">
-  <div class="container">
-    <h2 class="title is-2" style="text-align: center;">Method</h2>
-    <div class="columns is-centered">
-      <div class="column is-three-fifths is-centered has-text-centered">
-        <figure style="margin: 1.5rem auto; text-align: center;">
-          <img src="./resources/method/method-overview.png" alt="Method Overview" style="width: 100%; max-width: 800px; border: 1px solid #bbb; border-radius: 10px;">
-          <figcaption style="font-size: 1rem; margin-top: 0.5rem; color: #666; text-align: justify;">
-            <strong>Overview of GRAPE.</strong> Given a complex manipulation task (<strong>top</strong>), 
-            GRAPE first adopts a vision-language model to decompose the task into several temporal stages, 
-            then identifies spatial keypoints essential for each stage's subtask completion. 
-            Then given user-specified alignment goals, GRAPE prompts a powerful vision-language model to obtain 
-            a series of cost functions for each stage, where lower cost implies higher alignment compliance.
-            <br><br>
-            During iterative preference optimization (<strong>bottom</strong>), we sample multiple offline trajectories from the base VLA model 
-            (we use a teacher model in the initial stage to tackle the cold-start problem) and obtain trajectories with associated 
-            multi-stage costs. This score further incorporates the model's self-evaluation of each trajectory and a binary task success indicator. 
-            Then we rank the sampled trajectories with their corresponding scores to obtain a list of preferences. Finally, we perform 
-            a trajectory-wise preference optimization to obtain an improved model, from which we further sample online trajectories 
-            and iterate until convergence.
-          </figcaption>
-        </figure>
-      </div>
-    </div>
-  </div>
-</section>
-
-
-
-<!-- <section class="section" id="BibTeX">
-  <div class="container content">
-    <h2 class="titile">BibTeX</h2>
-    <pre><code>@inproceedings{zhuang2023robot,
-  author    = {Zhuang, Ziwen and Fu, Zipeng and Wang, Jianren and Atkeson, Christopher and Schwertfeger, Sören and Finn, Chelsea and Zhao, Hang},
-  title     = {Robot Parkour Learning},
-  booktitle = {Conference on Robot Learning ({CoRL})},
-  year      = {2023},
-}</code></pre>
-  </div>
-</section> -->
-
-<footer class="footer">
-  <div class="container">
-    <div class="content has-text-centered">
-      <p>Page template borrowed from <a href="https://nerfies.github.io/"><span class="dnerf">Nerfies</span></a> and <a href="https://robot-parkour.github.io/"><span class="dnerf">robot-parkour</span></a>.</p>
-    </div>
-  </div>
-</footer>
+          <footer class="footer">
+            <div class="container">
+              <div class="content has-text-centered">
+                <p>Page template borrowed from <a href="https://nerfies.github.io/"><span
+                      class="dnerf">Nerfies</span></a> and
+                  <a href="https://robot-parkour.github.io/"><span class="dnerf">robot-parkour</span></a>.
+                </p>
+              </div>
+            </div>
+          </footer>
 
 </body>
+
 </html>
