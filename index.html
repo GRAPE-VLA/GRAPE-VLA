@@ -190,7 +190,7 @@
     <div class="container is-max-desktop has-text-centered">
       <div class="hero-body">
         <video id="teaser" autoplay="" muted="" loop="" playsinline="" width="80%">
-          <source src="static/videos/grape.mp4" type="video/mp4">
+          <source src="static/videos/grape.mov" type="video/mp4">
         </video>
       </div>
     </div>
@@ -205,23 +205,9 @@
             <img src="static/images/grape_model.png">
             <p>
               <strong>Overview of GRAPE</strong>. Given a complex manipulation task (<strong>top</strong>), GRAPE first
-              adopts a
-              vision-language model to
-              decompose the
-              task into several temporal stages, then identifies spatial keypoints essential for each stage’s subtask
-              completion. Then given user-specified
-              alignment goals, GRAPE prompts a powerful vision-language model to obtain a series of cost functions for
-              each stage, where lower cost
-              implies higher alignment compliance. During iterative preference optimization (<strong>bottom</strong>),
-              we sample multiple
-              offline trajectories from the
-              base VLA model and obtain trajectories with associated multi-stage costs. This score further incorporates
-              the model’s self-evaluation of
+              adopts a vision-language model to decompose the task into several temporal stages, then identifies spatial keypoints essential for each stage’s subtask completion. Then given user-specified alignment goals, GRAPE prompts a powerful vision-language model to obtain a series of cost functions for each stage, where lower cost implies higher alignment compliance. During iterative preference optimization (<strong>bottom</strong>), we sample multiple offline trajectories from the base VLA model and obtain trajectories with associated multi-stage costs. This score further incorporates the model’s self-evaluation of
               each trajectory and a binary task success indicator. Then we rank the sampled trajectories with their
-              corresponding scores to obtain a list of
-              preferences. Then we perform a trajectory-wise preference optimization to obtain a improved model, from
-              which we further sample online
-              trajectories and iterate until convergence.
+              corresponding scores to obtain a list of preferences. Then we perform a trajectory-wise preference optimization to obtain a improved model, from which we further sample online trajectories and iterate until convergence.
             </p>
           </div>
         </div>
@@ -240,10 +226,7 @@
           <div class="content has-text-justified">
 
             <p>
-              Comparison of GRAPE with OpenVLA and Octo finetuned on the same data on the Simpler-Env environment. We
-              report the in-domain performance, which includes four tasks and
-              three generalization evaluations (subject, physical, and semantic),
-              where each incorporates multiple tasks.
+              Comparison of GRAPE with OpenVLA and Octo finetuned on the same data on the Simpler-Env environment. We report the in-domain performance, which includes four tasks and three generalization evaluations (subject, physical, and semantic), where each incorporates multiple tasks.
             </p>
           </div>
 
@@ -254,9 +237,7 @@
 
             <p>
               Comparison of GRAPE with OpenVLA and Octo finetuned on the same data on the LIBERO environment. We report
-              the
-              performance on four LIBERO tasks, including LIBERO-Spatial,
-              LIBERO-Object, LIBERO-Goal, LIBERO-Long.
+              the performance on four LIBERO tasks, including LIBERO-Spatial, LIBERO-Object, LIBERO-Goal, LIBERO-Long.
             </p>
           </div>
 
@@ -268,11 +249,8 @@
 
             <p>
               Comparison of GRAPE with OpenVLA and Octo fine-tuned on the same data on the real-world environment. We
-              report the
-              in-domain performance, which includes four tasks and five generalization evaluations (visual, subject,
-              action, semantic, and language
-              grounding), where each incorporates multiple tasks. We also report the average performance across all
-              tasks
+              report the in-domain performance, which includes four tasks and five generalization evaluations (visual, subject,
+              action, semantic, and language grounding), where each incorporates multiple tasks. We also report the average performance across all tasks.
             </p>
           </div>
 
